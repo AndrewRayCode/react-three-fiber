@@ -235,10 +235,10 @@ const Renderer = Reconciler({
     return instance
   },
   getRootHostContext(rootContainerInstance) {
-    return emptyObject
+    return rootContainerInstance
   },
   getChildHostContext(parentHostContext, type) {
-    return emptyObject
+    return parentHostContext
   },
   createTextInstance() {},
   finalizeInitialChildren(instance, type, props, rootContainerInstance) {

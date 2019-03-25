@@ -1,5 +1,5 @@
 {
-  "name": "react-three-fiber",
+  "name": "@andrewray/react-three-fiber",
   "version": "1.5.3",
   "description": "React-fiber renderer for THREE.js",
   "main": "dist/index.cjs.js",
